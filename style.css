@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+  }
+  .logo {
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+  span {
+    color: #c0392b;
+  }
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 50px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  nav ul li a:hover {
+    color: #c0392b;
+    transition: 0.4s;
+  }
+  .subscribe {
+    background: #c0392b;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 19px 10px 19px;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  .subscribe:hover {
+    transform: scale(1.2);
+  }
+  .abouts {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    line-height: 2;
+    color: #fff;
+  }
+  .abouts h4 {
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 2.5px;
+  }
+  .abouts h1 {
+    font-size: 49px;
+    font-style: normal;
+    letter-spacing: 2px;
+  }
+  .abouts input[type="email"] {
+    border: 1px solid #c0392b;
+    padding: 10px 37px;
+    border-radius: 10px;
+  }
+  ::placeholder{
+    color: #555;
+    font-weight: 150;
+    text-align: left;
+  }
+  .abouts input[type="submit"] {
+    background: #c0392b;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(93, 93, 93, 0.93);
+  }
+  .abouts input {
+    margin-top: 20px;
+  }
+  
+  /* skills page css    */
+  
+  .skills {
+    width: 100%;
+    height: 70vh;
+  }
+  .skills h2 {
+    text-align: center;
+    color: #c0392b;
+    text-decoration: overline;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+  .code-img {
+    width: 16%;
+    float: left;
+    margin-right: 30px;
+  }
+  .football-img {
+    width: 16%;
+    float: right;
+    margin-left: 30px;
+  }
+  .skill-row h3 {
+    color: #c0392b;
+  }
+.about{
+    width: 100%;
+    height: 67vh;
+    padding: 00px 0;
+    background: #9A2E1F;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-text h2{
+  color: #fff;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+.about-text h5{
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p{
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.main button{
+  background: #c0392b;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 11px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+  cursor: pointer;
+
+}
+.main button:hover{
+  background: transparent;
+  border: 2px solid #c0392b;
+}
+.copyright{
+  display:block;
+  text-align: center;
+  background: #9C4C40;
+  margin-top: 30px;
+}
+.copyright i{
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+.copyright p{
+  text-align: center;
+  color: #000;
+  padding-top: 60px;
+  font-size: 20px;
+}
+.copyright .fa-facebook{
+  color: blue;
+}
+.copyright .fa-instagram{
+  color: #EA0CB8;
+}
+.copyright .fa-twitter{
+  color: #4F70DA;
+}
+.copyright .fa-envelope{
+  color: #4FDA57;
+}
+.copyright i{
+  border: 2px solid #FF2D0D;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+.copyright i:hover{
+  background-color: #FF2D0D;
+  transition: 0.9s ease;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #942717; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px 20px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+.touch{
+  width: 100%;
+  height: 35vh;
+  background: #fff;
+}
+.touch h3{
+  color: #942717;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 300;
+  line-height: 3.7;
+  font-size: 28px;
+}
+.touch p{
+  text-align: center;
+  color: #222;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 400;
+}
+.touch a{
+  text-decoration: none;
+  color: #fff;
+  background: #c0392b;
+  padding: 11px 30px;
+  border-radius: 5.5px;
+  position: relative;
+  left: 44%;
+  top: 45px;
+}
